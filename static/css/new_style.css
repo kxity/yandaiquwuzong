@@ -1,0 +1,164 @@
+.mm-comment,
+    .mm-comment * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .mm-comment {
+    	display: none;
+        max-width: 640px;
+        padding: 18px;
+        margin: 10px auto;
+        font-size: 18px;
+        box-shadow: 0 0 5px #eee;
+        line-height: 1.6;
+        text-align: left;
+        background-color: #fff;
+        color: #333;
+    }
+    .mm-comment .m-commentForm {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 500;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    .mm-comment .m-commentFormMain {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        width: 90%;
+        padding: 4%;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    .mm-comment .m-commentFormHead {
+        font-weight: 700;
+        font-size: 18px;
+        color: #807a7a;
+    }
+    .mm-comment .m-commentFormBody {}
+    .mm-comment .f-field {
+        margin-top: 10px;
+    }
+    .mm-comment .m-commentInput {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #959595;
+        border-radius: 10px;
+        resize: none;
+        outline: none;
+        font-weight: 400;
+    }
+    .mm-comment .f-fieldBtn {
+        text-align: right;
+    }
+    .mm-comment .f-fieldBtn button {
+        display: inline-block;
+        padding: 5px 15px;
+        margin-right: 10px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        background-color: #77838f;
+        color: #fff;
+    }
+    .mm-comment .f-fieldBtn .f-submitBtn {
+        background-color: #f96768;
+    }
+    .mm-comment .m-commentResult {}
+    .mm-comment .m-commentResultHead {
+        margin-top: 0;
+        border-bottom: 2px solid #f6f6f6;
+        font-size: 22px;
+        color: #000;
+    }
+    .mm-comment .m-conmentList {}
+    .mm-comment .m-conmentList:after,
+    .mm-comment .m-discussFoot:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+        overflow: hidden;
+    }
+    .mm-comment .m-discuss {
+        position: relative;
+        padding: 15px 0 0 54px;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    .mm-comment .m-discussThumbnail {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        width: 42px;
+        height: 42px;
+        overflow: hidden;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+    .mm-comment .m-discussThumbnail img {
+        width: 100%;
+        height: 100%;
+    }
+    .mm-comment .m-discussHead {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .mm-comment .m-discussNickname {
+        color: #629bfa;
+        margin-right: 10px;
+    }
+    .mm-comment .m-discussAddress {
+        color: #ccc8c8;
+    }
+    .mm-comment .m-discussContent {
+    }
+    .mm-comment .m-discussContent img {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+    .mm-comment .m-discussContent a {
+        color: #9fc8f5;
+    }
+    .mm-comment .m-discussFoot {
+    	font-size: 16px;
+        line-height: 40px;
+        color: #666;
+    }
+    .mm-comment .m-discussTime {
+        float: left;
+        color: #4f4d4d;
+    }
+    .mm-comment .m-discussPraise {
+        line-height: 35px;
+        float: right;
+        color: #515151;
+    }
+    .mm-comment .icon {
+        float: left;
+        width: 15px;
+        height: 15px;
+        margin-top: 10px;
+        margin-right: 5px;
+        background: url("")/*tpa=http://ly.hzmshzpb.cn/qb/images/new_ico_praise.png*/ no-repeat;
+        -webkit-background-size: 15px 15px;
+        background-size: 15px 15px;
+    }
+	
+    .mm-comment .icon.active {
+        background: url("")/*tpa=http://ly.hzmshzpb.cn/qb/images/new_ico_praiseActive.png*/ no-repeat;
+        -webkit-background-size: 15px 15px;
+        background-size: 15px 15px;
+    }
+    .mm-comment .m-sendComment {
+        margin-top: 25px;
+        text-align: right;
+        font-size: 18px;
+        color: #666565;
+    }
